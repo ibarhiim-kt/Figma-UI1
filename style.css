@@ -31,7 +31,7 @@ body{
     font-family:"Heebo Regular" ;
 }
 .mainContainer{
-    max-width: 1150px;
+    max-width: 1300px;
     margin: 0 auto;
     
 }
@@ -52,37 +52,38 @@ body{
     
 }
 #nav h4{
-    margin-right: 38px;
+    margin-right: 60px;
     padding-top: 20px;
 }
 
 #page1{
     display: flex;
-    height: 470px;
+    height: 550px;
     justify-content: space-between;
+    /* background-color: yellow; */
 }
 #page1-text{
-    width: 500px;
+    width: 600px;
     /* background-color: white; */
     padding-top: 13%;
-    padding-left: 13%;
+    padding-left: 12%;
 }
 #page1-text #heading{
-    font-size: 35px;
+    font-size: 45px;
     /* font-weight: 700; */
     
 }
 #page1-text p{
-    margin-top: 25px;
-    font-size: 13px;    
+    margin-top: 30px;
+    font-size: 16px;    
     width: 420px;
     
 }
 #page1-text button{
-    padding: 10px;
+    padding: 14px 19px;
     background-color: #FF6464;
     color: white;
-    font-size: 15px;
+    font-size: 19px;
     border: none;
     margin-top:25px ;
     border-radius: 2px;
@@ -91,21 +92,22 @@ body{
 #page1-image{
     width: 40%;
     /* background-color: red; */
-    padding-top: 12%;
+    padding-top: 15%;
     padding-left: 80px;    
     object-fit: cover;  
 }
 #page1-image img{
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     
 }
 #page2{
-    height: 315px;
+    height: 350px;
     width: 100%;
     background-color: #EDF7FA;
+    /* background-color: red; */
     padding-left: 13%;
 }
 #page2-text{
@@ -114,10 +116,10 @@ body{
     justify-content: space-between;
 }
 #page2-text p{
-    font-size: 20px;
+    font-size: 23px;
 }
 #page2-text a{
-    margin-right: 130px;
+    margin-right: 170px;
     color: #00A8CC;
     font-size: 16px;
     text-decoration: none;
@@ -125,40 +127,42 @@ body{
 #page2-boxes{
     width: 85%;
     background-color:#EDF7FA;
-    height: 230px;
+    height: 260px;
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
     
 }
 #page2-boxes h2{
-    font-size: 23px;
+    font-size: 27px;
 }
 #page2-boxes-box1{
-    width: 47%;
+    width: 49%;
     background-color: white;
     padding: 15px;
     border-radius: 3px;
 }
 #page2-boxes-box1 p{
+    /* width: 80%; */
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 16px;
+    /* padding-bottom: 20px; */
 }
 #page2-boxes-box2{
-    width: 47%;
+    width: 49%;
     background-color: white;
     padding: 15px;
     border-radius: 3px;
 }
 #page2-boxes-box2 p{
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 16px;
 }
 #page2-boxes-box1 .space-para{
-    font-size: 16px;
+    font-size: 19px;
 }
 #page2-boxes-box2 .space-para{
-    font-size: 16px;
+    font-size: 19px;
 }
 #page2-boxes-box1 .double-space{
     letter-spacing: 25px;
@@ -175,7 +179,7 @@ body{
     
 }
 #page3-firstPara{
-    font-size:20px ;
+    font-size:23px ;
     padding-bottom: 10px;
 
 }
@@ -186,13 +190,14 @@ body{
     /* align-items: flex-start; */
     width: 80%;
     padding-bottom: 10px;
+    margin-bottom: 10px;
     /* background-color: red; */
     /* background-color: yellow; */
 }
 
 #page3-block1-img img{
-    width: 256px;
-    height: 145px;
+    width: 300px;
+    height: 180px;
     border-radius: 6px;
     padding-right: 50px;  
     object-fit: cover;  
@@ -216,7 +221,7 @@ body{
     height: 25px;
 }
 #smallText .dashboard{
-    font-size: 16px;
+    font-size: 18px;
     color: #8695A4;
 }
 #page3-block1-text{
@@ -226,22 +231,24 @@ body{
 }
 #page3-block1-text h2{
     /* background-color: yellow; */
-    
+    font-size: 32px;
 }
 #page3-block1-text p{
-    padding-top: 10px;
-    font-size: 13px;
+    padding-top: 12px;
+    font-size: 17px;
 }
 .line{
     width: 80%;
-    margin-bottom: 27px;    
+    
+    margin-bottom: 29px;    
     margin-top: -10px;
     background-color: #E0E0E0;
 }
 #footer{
     /* background-color: red; */
-    height: 100px;
-    margin-top: 40px;
+    height: 120px;
+    margin-top: 170px;
+
 }
 #images{
     display: flex;
@@ -254,10 +261,11 @@ body{
     padding-right: 35px;
 }
 #copyright{
-    margin-top: 17px;
+    margin-top: 20px;
     font-size: 12px;
     justify-content: center;
     display: flex;
+    
 }
 @media (max-width: 500px){
     #page1{
